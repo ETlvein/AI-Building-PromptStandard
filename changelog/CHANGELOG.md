@@ -1,6 +1,6 @@
 ﻿# Prompt Standard Changelog
 
-## [Unreleased]
+## [1.0.0] - 2026-09-19
 
 Current Standard:
 
@@ -8,7 +8,11 @@ PROMPT_STANDARD_V1.0
 
 Status:
 
-DRAFT
+FROZEN
+
+Owner Approval:
+
+APPROVED
 
 ### Added
 
@@ -16,7 +20,7 @@ DRAFT
 - Local Authoring Source and Git Published Source model
 - CURRENT_STANDARD.yaml
 - STANDARD_REGISTRY.yaml
-- PROMPT_STANDARD_V1.0 draft
+- PROMPT_STANDARD_V1.0
 - Execution Block model
 - Agent INSPECT -> EXECUTE -> REPORT model
 - Block-Level Preflight
@@ -24,6 +28,7 @@ DRAFT
 - Anti-Loop Rule
 - BLOCKER / CORE / DEFERRED / COSMETIC classification
 - External Research governance
+- Reference reuse governance
 - Skill governance
 - Registry First principle
 - Execution Block template
@@ -31,17 +36,18 @@ DRAFT
 - Project AI Bootstrap template
 - Git evidence requirements
 - Public repository safety rules
+- Cross-platform line-ending policy
 
-### Pending
+### Release Validation
 
-- Local repository verification
-- Public repository safety check
-- Initial Git commit
-- Initial Git push
-- Remote AI verification
-- PROJECT OWNER final approval
+- Local repository verification: PASS
+- Public repository safety check: PASS
+- Initial Git commit: PASS
+- Initial Git push: PASS
+- Remote AI verification: PASS
+- PROJECT OWNER final approval: PASS
 
-## Versioning Rule
+### Versioning Rule
 
 Major:
 Breaking governance changes.

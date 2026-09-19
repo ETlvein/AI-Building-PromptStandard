@@ -1,6 +1,6 @@
 ﻿# Prompt Standard V1.0
 
-Status: DRAFT
+Status: FROZEN
 
 ## 1. Purpose
 
@@ -665,17 +665,35 @@ PROMPT_STANDARD_V1.0
 
 Status:
 
-DRAFT
+FROZEN
 
-尚未冻结。
+Owner Approval:
 
-后续经过：
+APPROVED
+
+Freeze Date:
+
+2026-09-19
+
+该版本已经完成：
 
 - 仓库初始化
-- Registry 建立
-- 初始模板建立
-- Git 发布
-- Git 反向验证
-- Owner 最终确认
+- Standard Registry 建立
+- 核心 Templates 建立
+- Public Repository Safety Check
+- Git Commit
+- Git Push
+- Git 远程反向验证
+- PROJECT OWNER 最终批准
 
-之后，才可以切换为正式冻结版本。
+PROMPT_STANDARD_V1.0 现作为第一版稳定治理基线。
+
+后续不得直接修改其核心治理语义。
+
+后续变化应根据兼容性进入：
+
+- Patch Version
+- Minor Version
+- Major Version
+
+稳定项目应通过明确版本或 Git Tag 锁定本规范。

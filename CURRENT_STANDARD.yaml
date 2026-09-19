@@ -7,7 +7,7 @@ repository:
 
 current_standard:
   id: PROMPT_STANDARD_V1.0
-  status: DRAFT
+  status: FROZEN
   path: standards/PROMPT_STANDARD_V1.0.md
 
 registry:

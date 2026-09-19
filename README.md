@@ -56,17 +56,19 @@ PROMPT_STANDARD_V1.0
 
 Status:
 
-DRAFT
+FROZEN
 
-在完成以下事项前不得视为正式冻结版本：
+Owner Approval:
 
-- Repository initialization
-- Registry
-- Templates
-- Git publication
-- Remote verification
-- Owner approval
+APPROVED
 
+Freeze Date:
+
+2026-09-19
+
+该版本已经完成本地验证、Git 发布、远程反向验证和 PROJECT OWNER 最终批准。
+
+稳定项目应锁定明确版本，不应直接依赖持续变化的 main。
 ## Repository Structure
 
 <pre>
