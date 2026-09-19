@@ -1,0 +1,180 @@
+﻿# Agent Execution Report Template
+
+## 1. Identity
+
+PROJECT_ID:
+
+BLOCK_ID:
+
+BLOCK_NAME:
+
+AGENT:
+
+START_TIME:
+
+END_TIME:
+
+FINAL_STATUS:
+PASS / PARTIAL / BLOCKED / FAILED
+
+---
+
+## 2. Objective Result
+
+ORIGINAL_OBJECTIVE:
+
+RESULT:
+
+SUMMARY:
+
+---
+
+## 3. Preflight Result
+
+CHECKED_ENVIRONMENT:
+
+PREFLIGHT_STATUS:
+
+ENVIRONMENT_CONFLICTS:
+
+---
+
+## 4. Step Results
+
+### STEP 01
+
+ACTION:
+
+STATUS:
+
+RESULT:
+
+EVIDENCE:
+
+### STEP 02
+
+ACTION:
+
+STATUS:
+
+RESULT:
+
+EVIDENCE:
+
+根据实际执行继续增加。
+
+未执行步骤必须明确：
+
+SKIPPED
+
+并说明原因。
+
+---
+
+## 5. File Changes
+
+### ADDED
+
+### MODIFIED
+
+### DELETED
+
+### READ_ONLY
+
+每个重要文件应说明：
+
+PATH:
+
+CHANGE:
+
+REASON:
+
+VALIDATION:
+
+---
+
+## 6. Test Results
+
+AUTOMATED_TEST:
+
+BUILD_TEST:
+
+REGRESSION_TEST:
+
+MANUAL_TEST:
+
+NOT_RUN:
+
+---
+
+## 7. Prompt Deviations
+
+FULLY_FOLLOWED_PROMPT:
+YES / NO
+
+如为 NO：
+
+DEVIATION:
+
+REASON:
+
+IMPACT:
+
+AUTHORIZATION:
+
+---
+
+## 8. Issues
+
+### BLOCKER
+
+### CORE
+
+### DEFERRED
+
+### COSMETIC
+
+没有则写：
+
+NONE
+
+---
+
+## 9. Git Evidence
+
+如果本任务涉及 Git 发布：
+
+REPOSITORY:
+
+BRANCH:
+
+COMMIT_SHA:
+
+PUSH_RESULT:
+
+REGISTRY_UPDATED:
+
+PUBLISHED_FILES:
+
+如果不涉及：
+
+NOT_APPLICABLE
+
+---
+
+## 10. Owner / AI Validation
+
+需要验证：
+
+EXPECTED_RESULT:
+
+HOW_TO_CHECK:
+
+---
+
+## 11. Next Step Recommendation
+
+NEXT_RECOMMENDED_ACTION:
+
+AGENT_AUTHORIZED_TO_START_NEXT_MAJOR_BLOCK:
+NO

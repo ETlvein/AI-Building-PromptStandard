@@ -1,0 +1,23 @@
+﻿schema_version: 1
+
+repository:
+  name: AI-Building-PromptStandard
+  local_authoring_source: "D:\\AI Building_PromptStandard"
+  published_source: "https://github.com/ETlvein/AI-Building-PromptStandard"
+
+current_standard:
+  id: PROMPT_STANDARD_V1.0
+  status: DRAFT
+  path: standards/PROMPT_STANDARD_V1.0.md
+
+registry:
+  path: registries/STANDARD_REGISTRY.yaml
+
+governance:
+  mode: CENTRAL_REPOSITORY
+  local_role: AUTHORING_SOURCE
+  git_role: PUBLISHED_SOURCE
+  publication_required: true
+  rule: "A local change is not published until Git commit and push succeed."
+
+updated_date: "2026-09-19"

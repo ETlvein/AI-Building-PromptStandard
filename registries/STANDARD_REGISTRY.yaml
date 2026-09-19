@@ -1,0 +1,19 @@
+﻿schema_version: 1
+
+registry:
+  id: STANDARD_REGISTRY
+  repository: AI-Building-PromptStandard
+  purpose: "Registry of versioned Prompt Standard specifications."
+
+standards:
+  - id: PROMPT_STANDARD_V1.0
+    name: "Prompt Standard"
+    version: "1.0"
+    type: CORE
+    status: DRAFT
+    current: true
+    published: false
+    path: standards/PROMPT_STANDARD_V1.0.md
+    description: "Cross-project governance standard for AI planning, Agent execution, feedback, audit, and Owner control."
+
+updated_date: "2026-09-19"
