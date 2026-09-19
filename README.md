@@ -69,8 +69,10 @@ DRAFT
 
 ## Repository Structure
 
+<pre>
 AI-Building-PromptStandard
 |
+|-- .gitattributes
 |-- CURRENT_STANDARD.yaml
 |-- README.md
 |
@@ -87,6 +89,7 @@ AI-Building-PromptStandard
 |
 |-- changelog
     |-- CHANGELOG.md
+</pre>
 
 ## Core Roles
 
