@@ -18,6 +18,8 @@ Central governance repository for reusable AI project prompting, Agent execution
 - 环境审查和 Delta Check 规则
 - Skill 如何发现和按需加载
 - Git 如何承担发布和反向验证
+- 网页 AI 对话反馈如何统一采用总分结构
+- Prompt 如何默认以内嵌网页模块交付，而不是自动生成文件
 
 本仓库不保存具体项目业务规则。
 
@@ -69,6 +71,36 @@ Freeze Date:
 该版本已经完成本地验证、Git 发布、远程反向验证和 PROJECT OWNER 最终批准。
 
 稳定项目应锁定明确版本，不应直接依赖持续变化的 main。
+
+## Current Companion Standard
+
+AI_DIALOGUE_FEEDBACK_STANDARD_V1.0
+
+Status:
+
+FROZEN
+
+Owner Approval:
+
+APPROVED
+
+Freeze Date:
+
+2026-09-30
+
+适用于未来网页 AI 对话反馈与 Prompt 展示。其核心要求是：
+
+- 总分结构；
+- 顶部显示步骤 / 阶段定位；
+- 给出六级思维强度推荐；
+- Prompt 默认放在网页内独立 Prompt Module；
+- Prompt Module 后必须有提示词说明；
+- 除非用户明确要求，否则不生成 Prompt 文件、附件或下载交付物；
+- 详细反馈按重要性降序；
+- 结尾给出唯一下一步或明确 Owner Decision Gate。
+
+PROMPT_STANDARD_V1.0 本体保持冻结，不因本 Companion Standard 而被改写。
+
 ## Repository Structure
 
 <pre>
@@ -80,6 +112,7 @@ AI-Building-PromptStandard
 |
 |-- standards
 |   |-- PROMPT_STANDARD_V1.0.md
+|   |-- AI_DIALOGUE_FEEDBACK_STANDARD_V1.0.md
 |
 |-- registries
 |   |-- STANDARD_REGISTRY.yaml
@@ -88,6 +121,7 @@ AI-Building-PromptStandard
 |   |-- EXECUTION_BLOCK_TEMPLATE.md
 |   |-- AGENT_REPORT_TEMPLATE.md
 |   |-- PROJECT_AI_BOOTSTRAP_TEMPLATE.md
+|   |-- AI_DIALOGUE_FEEDBACK_TEMPLATE.md
 |
 |-- changelog
     |-- CHANGELOG.md
