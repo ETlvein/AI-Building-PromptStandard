@@ -16,4 +16,18 @@ standards:
     path: standards/PROMPT_STANDARD_V1.0.md
     description: "Cross-project governance standard for AI planning, Agent execution, feedback, audit, and Owner control."
 
-updated_date: "2026-09-19"
+
+  - id: AI_DIALOGUE_FEEDBACK_STANDARD_V1.0
+    name: "AI Dialogue Feedback Standard"
+    version: "1.0"
+    type: COMPANION
+    status: FROZEN
+    current: true
+    published: true
+    path: standards/AI_DIALOGUE_FEEDBACK_STANDARD_V1.0.md
+    description: "Cross-project standard for web AI dialogue feedback layout, prompt-module presentation, reasoning-intensity recommendation, and default no-file prompt delivery."
+    applies_to:
+      - WEB_AI_DIALOGUE_FEEDBACK
+      - PROMPT_PRESENTATION
+
+updated_date: "2026-09-30"

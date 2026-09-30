@@ -1,5 +1,39 @@
 ﻿# Prompt Standard Changelog
 
+## [ADFS-1.0.0] - 2026-09-30
+
+Standard:
+
+AI_DIALOGUE_FEEDBACK_STANDARD_V1.0
+
+Status:
+
+FROZEN
+
+Owner Approval:
+
+APPROVED
+
+### Added
+
+- Cross-project web AI dialogue feedback standard
+- Mandatory total-to-detail response structure
+- Step / phase navigation header
+- Six-level reasoning-intensity recommendation: 极低 / 低 / 中 / 高 / 极高 / 最大
+- Inline web Prompt Module as the default Prompt delivery format
+- Prompt explanation immediately after each Prompt Module
+- Importance-descending detailed explanation
+- Explicit risk / Gate section when applicable
+- Unique next-step rule
+- Default prohibition on Prompt file generation unless explicitly requested by the user
+- AI Dialogue Feedback template
+- Bootstrap discovery of the companion feedback standard
+
+### Compatibility
+
+- PROMPT_STANDARD_V1.0 remains unchanged and FROZEN.
+- This is a companion governance standard, not a rewrite of the frozen core standard.
+
 ## [1.0.0] - 2026-09-19
 
 Current Standard:
