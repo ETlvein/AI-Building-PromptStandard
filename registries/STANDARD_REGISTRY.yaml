@@ -16,7 +16,6 @@ standards:
     path: standards/PROMPT_STANDARD_V1.0.md
     description: "Cross-project governance standard for AI planning, Agent execution, feedback, audit, and Owner control."
 
-
   - id: AI_DIALOGUE_FEEDBACK_STANDARD_V1.0
     name: "AI Dialogue Feedback Standard"
     version: "1.0"
@@ -30,4 +29,18 @@ standards:
       - WEB_AI_DIALOGUE_FEEDBACK
       - PROMPT_PRESENTATION
 
-updated_date: "2026-09-30"
+  - id: AGENT_EXECUTION_REPORT_PACKAGING_REQUIREMENT_V1
+    name: "Agent Execution Report Packaging Requirement"
+    version: "1.0"
+    type: COMPANION
+    status: PUBLISHED
+    current: true
+    published: true
+    path: standards/AGENT_EXECUTION_REPORT_PACKAGING_REQUIREMENT_V1.md
+    description: "Standard for single ZIP execution report delivery, evidence packaging, manifest verification, and audit-ready Agent feedback."
+    applies_to:
+      - AGENT_EXECUTION_FEEDBACK
+      - EXECUTION_REPORT
+      - AUDIT_EVIDENCE
+
+updated_date: "2026-10-02"
